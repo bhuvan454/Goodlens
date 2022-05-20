@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'f9&kq!6ttfmx(9)&tm0j9m1lspf7s*psu&$-a*_=uv2v4^mtat'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'goodlenstest.herokuapp.com']
 
 
 # Application definition
